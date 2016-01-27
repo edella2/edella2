@@ -12,4 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require_tree .
+//
+//= require bootstrap
+//= require jquery.scrolly.min
+//= require skel.min
+//= require skel-viewport.min
+//= require util
+//= require main
+
