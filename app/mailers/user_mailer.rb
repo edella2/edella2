@@ -1,9 +1,14 @@
 class UserMailer < ApplicationMailer
-  default from: 'notifications@example.com'
+  default from: ENV["MY_EMAIL"]
 
-  def welcome_email
-    @user = ENV["MY_EMAIL"]
-    @url  = 'http://example.com/login'
-    mail(to: @user.email, subject: 'Welcome to My Awesome Site')
+  def contact_mail(params)
+    p "*" * 50
+    p params
+    @name = params[:name]
+    @message = params[:message]
+    @from = params[:email]
+    @subject = params[:subject]
+    p ENV["MY_EMAIL"]
+    mail(cc:params[:email], to: ENV["MY_EMAIL"], subject: params[:subject])
   end
 end
