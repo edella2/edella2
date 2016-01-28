@@ -1,7 +1,7 @@
 Rails.application.configure do
   config.secret_key_base = ENV["SECRET_KEY_BASE"]
 
-  config.action_mailer.default_url_options = { :host => '208.184.96.233:3000' }
+  config.action_mailer.default_url_options = { :host => 'eric-dellaringa.herokuapp.com' }
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
       :address              => 'smtp.gmail.com',
