@@ -2,6 +2,10 @@ source 'https://rubygems.org'
 
 ruby '3.4.2'
 
+# Add standard library gems that will be removed from Ruby 3.5.0
+gem 'ostruct'
+gem 'benchmark'
+
 gem 'dotenv-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '7.1.3.3'
