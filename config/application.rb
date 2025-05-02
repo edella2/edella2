@@ -23,5 +23,8 @@ module Edella2
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
+
+    # Set the cache format version to 7.0
+    config.active_support.cache_format_version = 7.0
   end
 end
