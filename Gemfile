@@ -16,6 +16,8 @@ gem 'rails', '7.1.3.3'
 gem 'pg', '~> 1.5'
 # Use SCSS for stylesheets
 gem 'sassc-rails'
+# Use Puma as the app server
+gem 'puma', '~> 6.4'
 # Use Uglifier as compressor for JavaScript assets
 # gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
