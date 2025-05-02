@@ -93,6 +93,7 @@ GEM
     drb (2.2.1)
     erubi (1.13.1)
     ffi (1.17.2-arm64-darwin)
+    ffi (1.17.2-x86_64-linux-gnu)
     globalid (1.2.1)
       activesupport (>= 6.1)
     i18n (1.14.7)
@@ -134,6 +135,8 @@ GEM
       net-protocol
     nio4r (2.7.4)
     nokogiri (1.18.8-arm64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.8-x86_64-linux-gnu)
       racc (~> 1.4)
     pg (1.5.9)
     pp (0.6.2)
@@ -219,6 +222,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-24
+  x86_64-linux
 
 DEPENDENCIES
   debug
