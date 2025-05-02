@@ -6,6 +6,9 @@ ruby '3.4.2'
 gem 'ostruct'
 gem 'benchmark'
 
+# Use newer json gem for Rails 7.1 compatibility
+gem 'json', '~> 2.7'
+
 gem 'dotenv-rails'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '7.1.3.3'
@@ -25,7 +28,7 @@ gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.11'
 # bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'sdoc', '~> 2.0'
 # gem "font-awesome-rails"
 
 # Use ActiveModel has_secure_password
