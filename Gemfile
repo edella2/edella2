@@ -29,7 +29,8 @@ gem 'jquery-rails'
 gem 'jbuilder', '~> 2.11'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 2.0'
-# gem "font-awesome-rails"
+# Font Awesome for icons
+gem 'font-awesome-rails'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
